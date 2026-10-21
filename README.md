@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Astropy-Astronomy-FF6F00?style=for-the-badge" alt="Astropy" />
   <img src="https://img.shields.io/badge/Interface-Tkinter%20%2F%20Matplotlib-3776AB?style=for-the-badge" alt="GUI" />
   <img src="https://img.shields.io/badge/SAÉ-Traitement%20d'Images-blueviolet?style=for-the-badge" alt="SAÉ Traitement d'Images" />
+  <a href="https://github.com/NewGamer62/astrophoto-fits-processor/actions/workflows/ci.yml"><img src="https://github.com/NewGamer62/astrophoto-fits-processor/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
 </p>
 
 ---
@@ -44,7 +45,7 @@ astrophoto-fits-processor/
 ├── phase1/              # Prototypes d'érosion morphologique globale
 ├── phase2/              # Pipeline de détection DAOStarFinder & masquage sélectif
 ├── phase3/              # Application finale avec interface graphique interactive
-│   └── app_interactive.py
+│   └── interface_gui.py
 ├── examples/            # Jeux de données astronomiques de test (.fits)
 │   ├── test_M31_linear.fits
 │   └── HorseHead.fits
@@ -92,6 +93,6 @@ pip install -r requirements.txt
 ### Lancement de l'Application
 
 ```bash
-python phase3/app_interactive.py
+python phase3/interface_gui.py
 ```
 Chargez un fichier FITS d'exemple (disponible dans `examples/HorseHead.fits` ou `test_M31_linear.fits`) et ajustez les paramètres d'érosion en temps réel.
