@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
   <img src="https://img.shields.io/badge/Astropy-Astronomy-FF6F00?style=for-the-badge" alt="Astropy" />
   <img src="https://img.shields.io/badge/Interface-Tkinter%20%2F%20Matplotlib-3776AB?style=for-the-badge" alt="GUI" />
-  <img src="https://img.shields.io/badge/Licence-MIT-green?style=for-the-badge" alt="Licence" />
+  <img src="https://img.shields.io/badge/SAÉ-Traitement%20d'Images-blueviolet?style=for-the-badge" alt="SAÉ Traitement d'Images" />
 </p>
 
 ---
